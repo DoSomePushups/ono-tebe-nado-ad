@@ -1,6 +1,7 @@
 body {
   font-family: Raleway, sans-serif;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 .header {
@@ -140,7 +141,7 @@ body {
 
 .lots__card-list {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap; /* Изменено с nowrap на wrap */
   gap: 25px;
   margin: 0;
   padding: 0;
@@ -253,7 +254,7 @@ body {
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 180px 50px;
+  padding: 180px 50px 90px;
 }
 
 .footer__menu {
