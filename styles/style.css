@@ -127,7 +127,7 @@ body {
 }
 
 .lots {
-  padding: 180px 50px;
+  padding: 180px 24px 120px 24px;
 }
 
 .lots__heading {
@@ -214,7 +214,7 @@ body {
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
-  padding: 0 50px;
+  padding: 0 24px;
 }
 
 .about__logo {
