@@ -53,6 +53,8 @@ body {
 .header__address {
   justify-self: end;
   max-width: 240px;
+  width: 240px;
+  height: 98px;
 }
 
 .cover {
@@ -64,6 +66,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 757px;
 }
 
 .overlay {
@@ -71,7 +74,6 @@ body {
   inset: 0;
   z-index: -1;
   background-color: rgba(0, 0, 0, 0.6);
-  height: 757px;
 }
 
 .cover__title {
@@ -226,7 +228,7 @@ body {
   align-items: center;
   width: 240px;
   height: 240px;
-  margin: 0 auto;
+  margin: 47px auto 0;
   border-radius: 50%;
   background-color: #000;
 }
@@ -236,7 +238,7 @@ body {
 }
 
 .about__column {
-  margin-top: 100px;
+  margin-top: 133px;
 }
 
 .about__title {
